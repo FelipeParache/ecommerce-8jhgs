@@ -1,3 +1,54 @@
-.rojo {
-  color: red;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+
+ul li{
+  padding: 10px;
+  color: white;
+}
+
+.cart-container{
+  width: 80px;
+  justify-content: space-between;
+  padding: 10px;
+  display: flex;
+  border-radius: 10px;
+  border: solid;
+  color: white;
+}
+
+.cart-container .cart{
+  width: 35px;
+  height: 100%;
+  color: white;
+}
+
+.cart-container .bubble{
+  padding: 5px;
+  margin-bottom: 0px;
+  color: white;
+  border-radius: 20px;
+  background: red;
+}
+
+.greeting-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.greeting-container .greeting{
+  margin-bottom: 0px;
+  color: goldenrod;
 }
